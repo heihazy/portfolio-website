@@ -30,7 +30,7 @@ nav {
     background-color: #F5889C;
     border: 1px solid #000000;
     top: 0;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -83,12 +83,12 @@ nav ul {
     text-align: center;
 }
 
-.headline p{
+.headline p {
     font-size: 36px;
 }
 
 .anchor {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .basic-info {
@@ -98,6 +98,7 @@ nav ul {
     max-width: 500px;
     font-size: 30px;
     line-height: 40px;
+    margin-top: 50px;
 }
 
 .more-photo {
@@ -118,4 +119,87 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 75%;
+    height: auto;
+}
+
+.exp-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+.wrapper-2 h1 {
+    text-align: center;
+    background-color: #F5889C;
+}
+
+.wrapper-2{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.wrapper-3 ul li{
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 50px;
+}
+.competence h1{
+    
+   text-align: center;
+    background-color: #F5889C;
+}
+
+.wrapper-3 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.wrapper-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding-top: 150px;
+    margin-right: 100px;
+}
+
+.contact{
+    background: linear-gradient(34.61deg, rgba(245, 136, 156, 0.69) 50.67%, rgba(239, 178, 200, 0) 50.67%);
+    position: relative;
+}
+
+.rectangle{
+background: url(img/rectangle.png) no-repeat 0 0;
+position: absolute;
+width: 1186px;
+left: 100px;
+top: 191px;
+bottom: 137px;
+background: #413E3E;
+/* overflow: hidden; */
+}
+
+.wrapper-4 {
+    text-align: center;
+   max-width: 500px;
+   height: auto;
+   display: inline;
 }
