@@ -146,21 +146,21 @@ nav ul {
     background-color: #F5889C;
 }
 
-.wrapper-2{
+.wrapper-2 {
     display: flex;
     flex-direction: column;
     align-content: space-around;
 }
 
-.wrapper-3 ul li{
+.wrapper-3 ul li {
     display: flex;
     text-decoration: none;
     font-size: 30px;
     line-height: 50px;
 }
-.competence h1{
-    
-   text-align: center;
+
+.competence h1 {
+    text-align: center;
     background-color: #F5889C;
 }
 
@@ -177,29 +177,40 @@ nav ul {
     text-align: center;
     flex-wrap: wrap;
     align-content: space-around;
-    padding-top: 150px;
-    margin-right: 100px;
+    margin-bottom: 200px;
 }
 
-.contact{
-    background: linear-gradient(34.61deg, rgba(245, 136, 156, 0.69) 50.67%, rgba(239, 178, 200, 0) 50.67%);
-    position: relative;
+.contact {
+    background: linear-gradient(20deg, rgba(245, 136, 156, 0.69) 50.67%, rgba(239, 178, 200, 0) 50.67%);
 }
 
-.rectangle{
-background: url(img/rectangle.png) no-repeat 0 0;
-position: absolute;
-width: 1186px;
-left: 100px;
-top: 191px;
-bottom: 137px;
-background: #413E3E;
-/* overflow: hidden; */
+.rectangle {
+    background: #413E3E;
+    padding: 0 200px;
 }
 
 .wrapper-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-   max-width: 500px;
-   height: auto;
-   display: inline;
+    line-height: 50%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.wrapper-4 h2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.wrapper-4 h3 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.wrapper-4 p, a {
+    color: white;
+    font-size: 24px;
+    line-height: 100%;
 }
