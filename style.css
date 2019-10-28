@@ -63,17 +63,13 @@ nav ul {
 .photo-1 {
     width: 425px;
     height: 425px;
-    left: 212px;
-    top: 263px;
 }
 
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
     justify-content: space-evenly;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .headline {
@@ -88,17 +84,25 @@ nav ul {
 }
 
 .anchor {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .basic-info {
-    display: flex;
-    flex-direction: column;
     text-align: center;
     max-width: 500px;
     font-size: 30px;
     line-height: 40px;
-    margin-top: 50px;
+}
+
+.basic-info p:last-of-type {
+    margin-bottom: 0;
+}
+
+.basic-info h1 {
+}
+
+.basic-info a {
+    color: black;
 }
 
 .more-photo {
@@ -106,8 +110,8 @@ nav ul {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 43px;
     background-color: #F5889C;
+    margin-top: 35px;
 }
 
 .more-photo img {
@@ -122,10 +126,10 @@ nav ul {
 }
 
 .logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+}
+
+.logo p {
+    font-size: 30px;
 }
 
 .logo img {
@@ -134,22 +138,18 @@ nav ul {
 }
 
 .exp-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 30px;
+
 }
 
-.wrapper-2 h1 {
+.experience h1 {
     text-align: center;
-    background-color: #F5889C;
 }
 
 .wrapper-2 {
     display: flex;
-    flex-direction: column;
-    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .wrapper-3 ul li {
@@ -161,7 +161,6 @@ nav ul {
 
 .competence h1 {
     text-align: center;
-    background-color: #F5889C;
 }
 
 .wrapper-3 ul {
@@ -176,8 +175,6 @@ nav ul {
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
-    align-content: space-around;
-    margin-bottom: 200px;
 }
 
 .contact {
@@ -200,12 +197,10 @@ nav ul {
 }
 
 .wrapper-4 h2 {
-    margin-bottom: 50px;
     font-size: 36px;
 }
 
 .wrapper-4 h3 {
-    margin-bottom: 30px;
     font-size: 30px;
 }
 
