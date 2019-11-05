@@ -123,6 +123,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 95px;
 }
 
 .logo {
@@ -137,8 +138,8 @@ nav ul {
     height: auto;
 }
 
-.exp-info {
-
+.logo a:hover{
+    background-color: slateblue;
 }
 
 .experience h1 {
@@ -150,6 +151,7 @@ nav ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 100px;
 }
 
 .wrapper-3 ul li {
@@ -175,6 +177,7 @@ nav ul {
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
+    padding: 200px;
 }
 
 .contact {
